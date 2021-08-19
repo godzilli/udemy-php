@@ -17,13 +17,12 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: #1867c0;
+    background-color: #4682B4;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10px;
     box-shadow: 3px 4px 0px 1px rgba(74,72,74,1);
 }
 
@@ -42,5 +41,8 @@ body {
 .rodape {
     grid-area: rodape;
     height: cal(100vh - 180px);
-    background-color: #584c2a;
+    background-color: #CAE1FF;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
 }
