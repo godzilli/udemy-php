@@ -96,6 +96,25 @@ body {
     outline: dotted crimson;
 }
 
+.modulo.verde {
+    border: 2px solid #?;
+}
+.modulo.verde > h3 {
+    background-color: #?;
+}
+.modulo.cor {
+    border: 2px solid #?;
+}
+.modulo.cor > h3 {
+    background-color: #?;
+}
+.modulo.cor {
+    border: 2px solid #?;
+}
+.modulo.cor > h3 {
+    background-color: #?;
+}
+
 .rodape {
     grid-area: rodape;
     background-color: #8968CD;
