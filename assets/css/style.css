@@ -62,7 +62,38 @@ body {
 
 .modulo{
     flex-basis: 32%; /* cada elemento ocupa 32% da tela */
+}
 
+.modulo > h3 {
+    margin: 0px;
+    color:#000000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px 20px;
+    background-color:crimson;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul >li {
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+
+.modulo > ul >li:hover{ /*evento*/
+    background: gold;
+    outline: dotted crimson;
 }
 
 .rodape {
