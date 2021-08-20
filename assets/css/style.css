@@ -1,5 +1,5 @@
 *{
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Nunito', sans-serif;
 box-sizing: border-box;
 }
 
@@ -62,6 +62,8 @@ body {
 
 .modulo{
     flex-basis: 32%; /* cada elemento ocupa 32% da tela */
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .modulo > h3 {
@@ -96,24 +98,17 @@ body {
     outline: dotted crimson;
 }
 
-.modulo.verde {
-    border: 2px solid #?;
-}
-.modulo.verde > h3 {
-    background-color: #?;
-}
-.modulo.cor {
-    border: 2px solid #?;
-}
-.modulo.cor > h3 {
-    background-color: #?;
-}
-.modulo.cor {
-    border: 2px solid #?;
-}
-.modulo.cor > h3 {
-    background-color: #?;
-}
+.modulo.verde { border: 2px solid #A2CD5A; }
+.modulo.verde > h3 { background-color: #A2CD5A; }
+
+.modulo.vermelho { border: 2px solid #EE5C42; }
+.modulo.vermelho > h3 { background-color: #EE5C42; }
+
+.modulo.azul { border: 2px solid #87CEFF; }
+.modulo.azul > h3 { background-color: #87CEFF; }
+
+.modulo.laranja { border: 2px solid #FF8C00; }
+.modulo.laranja > h3 { background-color: #FF8C00; }
 
 .rodape {
     grid-area: rodape;
