@@ -105,11 +105,11 @@ body {
     background: #6794A1;
 }
 
-.modulo.verde:hover { border: 2px solid #A2CD5A; }
-.modulo.verde > h3:hover { background-color: #A2CD5A; }
+.modulo.verde { border: 2px solid #A2CD5A; }
+.modulo.verde > h3 { background-color: #A2CD5A; }
 
-.modulo.vermelho:hover { border: 2px solid #EE5C42; }
-.modulo.vermelho > h3:hover { background-color: #EE5C42; }
+.modulo.vermelho { border: 2px solid #EE5C42; }
+.modulo.vermelho > h3 { background-color: #EE5C42; }
 
 .modulo.azul { border: 2px solid #87CEFF; }
 .modulo.azul > h3 { background-color: #87CEFF; }

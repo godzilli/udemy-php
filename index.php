@@ -19,7 +19,7 @@
                 <div class="modulo verde"> <!--link que redireciona para a atividade-->
                     <h3>Módulos 01</h3>
                         <ul>
-                            <li><a href="#">Atividade A</a></li><!--links-->
+                            <li><a href="ex.php">Atividade A</a></li><!--links-->
                             <li><a href="#">Atividade B</a></li>
                             <li><a href="#">Atividade C</a></li>
                             
