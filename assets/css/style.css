@@ -17,8 +17,8 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: #FFD700;
-    color: #000000;
+    background-color: #364E54;
+    color: #87C3D4;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,7 +41,7 @@ body {
 .principal {
     grid-area: principal;
     height: calc(100vh - 180px); 
-    background-color: #FFE1FF;
+    background-color: #87C3D4;
     padding: 20px;
 }
 
@@ -72,7 +72,15 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
     padding: 10px 20px;
-    background-color:crimson;
+    background-color:#A2CD5A;
+}
+.modulo.vermelho > h3 {
+    margin: 0px;
+    color:#000000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px 20px;
+    background-color:#EE5C42;
 }
 
 .modulo > ul {
@@ -83,7 +91,7 @@ body {
 
 .modulo > ul >li {
     padding: 5px;
-    font-size: 1.2rem;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -94,15 +102,14 @@ body {
 }
 
 .modulo > ul >li:hover{ /*evento*/
-    background: gold;
-    outline: dotted crimson;
+    background: #6794A1;
 }
 
-.modulo.verde { border: 2px solid #A2CD5A; }
-.modulo.verde > h3 { background-color: #A2CD5A; }
+.modulo.verde:hover { border: 2px solid #A2CD5A; }
+.modulo.verde > h3:hover { background-color: #A2CD5A; }
 
-.modulo.vermelho { border: 2px solid #EE5C42; }
-.modulo.vermelho > h3 { background-color: #EE5C42; }
+.modulo.vermelho:hover { border: 2px solid #EE5C42; }
+.modulo.vermelho > h3:hover { background-color: #EE5C42; }
 
 .modulo.azul { border: 2px solid #87CEFF; }
 .modulo.azul > h3 { background-color: #87CEFF; }
@@ -112,7 +119,7 @@ body {
 
 .rodape {
     grid-area: rodape;
-    background-color: #8968CD;
+    background-color: #BCE3EE;
     display: flex;
     padding: 20px;
     justify-content: center;

@@ -72,7 +72,7 @@
     </main>
 
     <footer class="rodape">
-        Jennifer Zilli - jenniferdacostazilli@hotmail.com
+        Jennifer Zilli - jenniferdacostazilli@hotmail.com <?= date('M-D-Y') ?>
     </footer>
 
  <!--
