@@ -16,12 +16,19 @@
         <h2>Atividade</h2>
     </header>
 
-    <nav class=navegacao>
-        <a href="index.php" class=vermelho>Voltar</a>
+    <nav class="navegacao">
+        <a href="#" class=verde>Sem Formatacao</a>
+        <a href="index.php" class="vermelho">Voltar</a>
     </nav>
 
     <main class="principal">
-        <div class="conteudo"></div>
+        <div class="conteudo"> <!-- retornar para basic/hello.php -->
+
+            <?php 
+                include('basic/' . $_GET['dir']);
+            ?>
+
+        </div>
     </main>
 
     <footer class="rodape">
