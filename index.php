@@ -19,19 +19,13 @@
                     <div class="modulo verde"> <!--link que redireciona para a atividade-->
                         <h3>Módulos 01</h3>
                             <ul>
-                                <li><a href="ex.php?dir=hello.php">Atividade A</a></li><!--links-->
-                                <li><a href="#">Atividade B</a></li>
-                                <li><a href="#">Atividade C</a></li>
-                                
-                            </ul>
-                    </div>
-
-                    <div class="modulo vermelho"> <!--link que redireciona para a atividade-->
-                        <h3>Módulos 02</h3>
-                            <ul>
-                                <li><a href="#">Atividade A</a></li><!--links-->
-                                <li><a href="#">atividade B</a></li>
-                                <li><a href="#">atividade C</a></li>
+                                <li><a href="redirecionar.php?dir=basic&file=oi">Texto Redirecionado</a></li><!--links-->
+                                <li><a href="redirecionar.php?dir=basic&file=desafio">Desafio</a></li>
+                                <li><a href="redirecionar.php?dir=tipos&file=string">Tipos</a></li>
+                                <li><a href="redirecionar.php?dir=variavel&file=basicovar">Variaveis</a></li>
+                                <li><a href="redirecionar.php?dir=variavel&file=desafiovar">Desafio Váriavel</a></li>
+                                <li><a href="redirecionar.php?dir=metodos&file=form">Formulário</a></li>
+                                <li><a href="redirecionar.php?dir=metodos&file=switch">Switch/Case</a></li>
                             </ul>
                     </div>
                 </nav>

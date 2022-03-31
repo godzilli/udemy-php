@@ -4,6 +4,7 @@ box-sizing: border-box;
 }
 
 body {
+    font-size: 30px;
     height: 100vh;
     margin: 0px;
     display: grid;

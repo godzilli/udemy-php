@@ -17,15 +17,14 @@
     </header>
 
     <nav class="navegacao">
-        <a href="#" class=verde>Sem Formatacao</a>
         <a href="index.php" class="vermelho">Voltar</a>
     </nav>
 
     <main class="principal">
-        <div class="conteudo"> <!-- retornar para basic/hello.php -->
+        <div class="conteudo">
 
             <?php 
-                include('basic/' . $_GET['dir']);
+                include($_GET['dir'] . '/' . $_GET['file'] . '.php');
             ?>
 
         </div>
