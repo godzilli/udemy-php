@@ -22,11 +22,18 @@ if($categoria === 'luxo'){
 $precoAlterado = number_format($preco, 2, ',','.');
 echo "<p>Carro: $carro<br>Preço: R$ $precoAlterado</p>";
 
-$categoria = '???';
-switch ($categoria){
-    case 'Luxo':
+$categoria = 'LUXO';
+switch (strtolower($categoria)){
+    case 'luxo':
         $carro = 'Mercedes';
         $preco = '250000';
         break;
+    case 'suv':
+    case 'suv Básico':
+        $carro = 'Renegade';
+        $preco = 80000;
+        break;
 }
-?>
+
+$precoAlterado = number_format($preco, 2, ',','.');
+echo "<p>Carro: $carro<br>Preço: R$ $precoAlterado</p>";
