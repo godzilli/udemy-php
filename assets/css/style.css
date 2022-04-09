@@ -111,8 +111,11 @@ body {
 .modulo.verde { border: 2px solid #A2CD5A; }
 .modulo.verde > h3 { background-color: #A2CD5A; }
 
-.modulo.vermelho { border: 2px solid #EE5C42; }
-.modulo.vermelho > h3 { background-color: #EE5C42; }
+.modulo.azul { border: 2px solid #1256e9; }
+.modulo.azul > h3 { background-color: #1256e9; }
+
+.modulo.laranja { border: 2px solid #d89e31; }
+.modulo.laranja > h3 { background-color: #d89e31; }
 
 .rodape {
     grid-area: rodape;
