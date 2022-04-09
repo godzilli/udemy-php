@@ -22,6 +22,10 @@
 
 <?php
 
+if (!isset($_POST['conversao'])) {
+    return;
+}
+
 const FATOR_KM_MILHA = 0.621371;
 const FATOR_METRO_KM = 1000;
 const FATOR_CEL_FR = 1.8;
@@ -34,7 +38,7 @@ switch ($_POST['conversao']) {
         $mensagem = "$param Km = $distancia Milhas";
         break;
     case 'milha-km':
-        $diatancia = $param / FATOR_KM_MILHA;
+        $distancia = $param / FATOR_KM_MILHA;
         $mensagem = "$param Milhas = $distancia Km";
         break;
     case 'km-metro':
@@ -53,8 +57,9 @@ switch ($_POST['conversao']) {
         $conversao = $param * FATOR_CEL_FR;
         $mensagem = "{$param}° Fr = {$conversao}° Celsius";
         break;
-
     default:
         $mensagem = "Nenhum valor calculado";
+
 }
+echo $mensagem;
 ?>

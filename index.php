@@ -17,15 +17,14 @@
             <div class="conteudo">
                 <nav class="modulos"> <!-- navegação-->
                     <div class="modulo verde"> <!--link que redireciona para a atividade-->
-                        <h3>Módulos 01</h3>
+                        <h3>Início</h3>
                             <ul>
-                                <li><a href="redirecionar.php?dir=basic&file=oi">Texto Redirecionado</a></li><!--links-->
-                                <li><a href="redirecionar.php?dir=basic&file=desafio">Desafio</a></li>
-                                <li><a href="redirecionar.php?dir=tipos&file=string">Tipos</a></li>
-                                <li><a href="redirecionar.php?dir=variavel&file=basicovar">Variaveis</a></li>
-                                <li><a href="redirecionar.php?dir=variavel&file=desafiovar">Desafio Váriavel</a></li>
+                                <li><a href="redirecionar.php?dir=desafio&file=desafio_matematica">Desafio</a></li>
+                                <li><a href="redirecionar.php?dir=desafio&file=desafio_switch">Desafio Switch</a></li>
+                                <li><a href="redirecionar.php?dir=metodos&file=string">Metodos</a></li>
+                                <li><a href="redirecionar.php?dir=metodos&file=basicovar">Variaveis</a></li>
                                 <li><a href="redirecionar.php?dir=metodos&file=form">Formulário</a></li>
-                                <li><a href="redirecionar.php?dir=metodos&file=switch">Switch/Case</a></li>
+                                <li><a href="redirecionar.php?dir=metodos&file=switch">Desafio Switch</a></li>
                             </ul>
                     </div>
                 </nav>

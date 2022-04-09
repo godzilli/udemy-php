@@ -16,6 +16,7 @@ body {
     "rodape"
 }
 
+
 .cabecalho {
     grid-area: cabecalho;
     background-color: #364E54;
@@ -29,7 +30,7 @@ body {
 
 .cabecalho > h1{
     margin: 0px;
-    font-weight: 300;
+    font-weight: 800;
     font-size: 2.8rem;
 }
 
@@ -41,7 +42,6 @@ body {
 
 .principal {
     grid-area: principal;
-    height: calc(100vh - 180px); 
     background-color: #87C3D4;
     padding: 20px;
 }
@@ -53,6 +53,8 @@ body {
     background-color: white;
     padding: 20px;
     box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+    font-weight: 1000;
 }
 
 .modulos{
@@ -111,12 +113,6 @@ body {
 
 .modulo.vermelho { border: 2px solid #EE5C42; }
 .modulo.vermelho > h3 { background-color: #EE5C42; }
-
-.modulo.azul { border: 2px solid #87CEFF; }
-.modulo.azul > h3 { background-color: #87CEFF; }
-
-.modulo.laranja { border: 2px solid #FF8C00; }
-.modulo.laranja > h3 { background-color: #FF8C00; }
 
 .rodape {
     grid-area: rodape;
