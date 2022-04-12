@@ -24,11 +24,11 @@ body.ex {
     text-decoration: none;
     color: #fff;
     font-size: 1.3rem;
-    font-weight: 300;
-    background-color: darkcyan;
+    font-weight: 600;
+    background-color: #97203a;
     padding: 5px 10px;
     margin-right: 10px;
 }
 
 .navegacao > a.verde { background-color:  #A2CD5A; }
-.navegacao > a.vermelho { background-color: #EE5C42; }
+.navegacao > a.vermelho { background-color: #97203a; }

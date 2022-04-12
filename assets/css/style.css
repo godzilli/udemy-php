@@ -16,11 +16,10 @@ body {
     "rodape"
 }
 
-
 .cabecalho {
     grid-area: cabecalho;
-    background-color: #364E54;
-    color: #87C3D4;
+    background-color: #9dc1ca;
+    color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -42,15 +41,15 @@ body {
 
 .principal {
     grid-area: principal;
-    background-color: #87C3D4;
+    background-color: #aaaaaa;
     padding: 20px;
 }
 
 .conteudo{
     position: relative;
     height: 100%;
-    overflow-y: scroll; /* scroll dentro apenas dessa parte*/
-    background-color: white;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     box-shadow: -1px 11px 9px -5px rgba(0,0,0,0.75);
     font-size: 1.5rem;
@@ -73,17 +72,9 @@ body {
     margin: 0px;
     color:#000000;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 13200;
     padding: 10px 20px;
     background-color:#A2CD5A;
-}
-.modulo.vermelho > h3 {
-    margin: 0px;
-    color:#000000;
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 10px 20px;
-    background-color:#EE5C42;
 }
 
 .modulo > ul {
@@ -108,18 +99,30 @@ body {
     background: #6794A1;
 }
 
-.modulo.verde { border: 2px solid #A2CD5A; }
-.modulo.verde > h3 { background-color: #A2CD5A; }
+.modulo.verde { border: 2px solid #14422b; }
+.modulo.verde > h3 { background-color: #14422b; }
+.modulo.verde { background-color: #ffffff;}
 
-.modulo.azul { border: 2px solid #1256e9; }
-.modulo.azul > h3 { background-color: #1256e9; }
+.modulo.azul { border: 2px solid #4d6599; }
+.modulo.azul > h3 { background-color: #4d6599; }
+.modulo.azul { background-color: #ffffff;}
 
-.modulo.laranja { border: 2px solid #d89e31; }
-.modulo.laranja > h3 { background-color: #d89e31; }
+.modulo.laranja { border: 2px solid #803232; }
+.modulo.laranja > h3 { background-color: #803232; }
+.modulo.laranja { background-color: #ffffff;}
+
+.modulo.roxo { border: 2px solid #380c36; }
+.modulo.roxo > h3 { background-color: #380c36; }
+.modulo.roxo { background-color: #ffffff;}
+
+.modulo.verde1 { border: 2px solid #436110}
+.modulo.verde1 > h3 {background-color: #436110;}
+.modulo.verde1 {background-color: #ffffff;}
 
 .rodape {
     grid-area: rodape;
-    background-color: #BCE3EE;
+    color: #ffffff;
+    background-color: #000000;
     display: flex;
     padding: 20px;
     justify-content: center;
