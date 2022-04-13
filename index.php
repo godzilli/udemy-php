@@ -29,6 +29,8 @@
                             <li><a href="redirecionar.php?dir=desafio&file=desafio_meses">Desafio Meses</a></li>
                             <li><a href="redirecionar.php?dir=desafio&file=desafio_sorteio">Desafio Sorteio</a></li>
                             <li><a href="redirecionar.php?dir=desafio&file=desafio_for">Desafio For</a></li>
+                            <li><a href="redirecionar.php?dir=desafio&file=desafio_impressao">Desafio Impressão(break/continue)</a></li>
+                            <li><a href="redirecionar.php?dir=desafio&file=desafio_tabela">Desafio Tabela</a></li>
                         </ul>
                     </div>
                     <div class="modulo azul">
@@ -67,6 +69,9 @@
                         <ul>
                             <li><a href="redirecionar.php?dir=repeticoes&file=for">For</a></li>
                             <li><a href="redirecionar.php?dir=repeticoes&file=foreach">Foreach</a></li>
+                            <li><a href="redirecionar.php?dir=repeticoes&file=break">Break</a></li>
+                            <li><a href="redirecionar.php?dir=repeticoes&file=while">While/Do While</a></li>
+
                         </ul>
                     </div>
                 </nav>
