@@ -8,14 +8,26 @@ $matriz = [
     ['16', '17', '18', '19', '20']
 ];
 
-foreach($matriz as $linha){
-    foreach($linha as $valor){
+foreach ($matriz as $linha) {
+    foreach ($linha as $valor) {
         echo "$valor ";
     }
     echo "<br>";
 }
 
 ?>
+
+<table>
+    <?php
+    foreach ($matriz as $x) {
+        echo '<tr>';
+        foreach ($x as $y) {
+            echo "<td>{$y}</td>";
+        }
+        echo '</tr>';
+    }
+    ?>
+</table>
 
 <style>
     table {
@@ -29,6 +41,6 @@ foreach($matriz as $linha){
     }
 
     table td {
-        border: 10px 20px;
+        padding: 10px 20px;
     }
 </style>
