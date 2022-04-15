@@ -5,6 +5,7 @@ body.ex {
     "navegacao"
     "principal"
     "rodape"
+    "conteudo"
 }
 
 .principal {
@@ -16,7 +17,7 @@ body.ex {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #555;
+    background-color: #466583;
 
 }
 

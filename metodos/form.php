@@ -37,7 +37,7 @@ if (isset($_POST['t1']) && isset($_POST['t1'])) {
     }
 
     if ($tv) {
-        $resultado = "Tv!";
+        $resultado = "Tv $tv polegadas";
     } else {
         $resultado = "Sem Tv.";
     }
