@@ -19,19 +19,6 @@ foreach ($matriz as $linha) {
 
 <table>
     <?php
-        foreach($matriz as $index => $linha){
-            $style = $index % 2 === 0 ? 'background-color: lightblue;' : '';
-                echo "<tr style='{$style}'>";
-                foreach($linha as $valor){
-                    echo "<td>$valor</td>";
-                }
-            }
-            echo '</tr>';
-    ?>
-</table>
-
-<table>
-    <?php
     foreach ($matriz as $x) {
         echo '<tr>';
         foreach ($x as $y) {
